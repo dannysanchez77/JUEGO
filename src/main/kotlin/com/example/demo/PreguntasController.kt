@@ -15,7 +15,7 @@ class PreguntasController {
     fun getCorrecta(@PathVariable respuesta: String, @PathVariable id: Int): String {
         val gson = Gson()
         if (PreguntasRepository.juego[id].correcta.equals(respuesta)) {
-            println(" Muy bien has acertado ")
+            println(" Muy bien has acertado  ")
             return gson.toJson(" Respuesta Correcta ")
         } else {
             println(" Has fallado. sigue intentadolo ")

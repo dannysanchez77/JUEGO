@@ -3,7 +3,7 @@ package com.example.demo
 class PreguntasRepository {
     companion object {
         var juego = listOf(
-            Preguntas(" ¿Como me llamo?" ,   " Danny ",   " Alberto ",   " Andres ",   " Juan "," Danny ",1 ),
+            Preguntas(" ¿Como me llamo? " ,   " Danny ",   " Alberto ",   " Andres ",   " Juan "," Danny ",1 ),
             Preguntas(" ¿Que equipo de futbol posee en sus vitrinas mas Champions League? ", " PSG", " Atletico de Madrid ", " Real Madrid ", " Everton "," Real Madrid ",2),
             Preguntas(" ¿Cual es la moneda oficial de EEUU? ", " Euro ", " Pesos ", " Pesetas ", " Dollar "," Dollar ",3),
             Preguntas(" El logo de la manzana, ¿A que marca corresponde? ", " Huawei ", " Apple ", " Samsung ", " Nokia "," Apple ",4),
